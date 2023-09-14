@@ -1,10 +1,10 @@
-
+/* 
 /*se establece la altura del body en un 100% (o vh) y se coloca la imagend e fondo*/
 body{
     height: 100vh;
     margin: 0;
     background-image: url(blank-concrete-white-wall-texture-background.jpg) ;
-}
+} 
 /*estilo para el título del juego*/
 h1{
     margin-top: 0%;
@@ -16,14 +16,14 @@ h1{
    -3px  0px 0px white,
     0px -3px 0px white;
     background-image: url(moldura.jpg);
-}
-
+} 
+ 
 /*la clase cartel para el botón de ingresar nombre*/
 .cartel{
     font-size: medium;
     text-align: center;
     align-items: center;
-    background-image: url(cartel.jpg);
+    background-image: url(./cartel.jpg);
     height: 152px;
     width: 224px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -31,8 +31,9 @@ h1{
     border-color:azure ;
     
 }
-/*clase llabero para desplegar las opciones del juego*/
-.llavero{
+
+/*clase llavero para desplegar las opciones del juego*/
+/* .llavero{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: larger;
     background-image: url(colgador\ llaves.jpg);
@@ -42,26 +43,34 @@ h1{
     margin-top: 1%;
     border-color: black;
     border-width: 5px;
-}
+} */
 /*clase para mantener la distancia entre los elementos dentro del div.titulo*/
 .titulo{
 display: flex;
 justify-content:space-around;
 margin-top: 1%;
     
+} 
+
+.verOpciones{
+    
+    position: relative;
+    
+   justify-content: center;
+   align-items: center;  
 }
 /*clase para mantener las opciones en el centro de la interfaz*/
-.cuadros{
+ .cuadros{
     display: flex;
     justify-content: center;
 }
-
+ */
 /*esta clase no permite que el tablero con el resultado se vea antes de que se comience a jugar*/
 .tablero{
     display: none;
     justify-content: center;
 }
-
+ 
 /*carcaterísticas del nombre del jugador*/
 #showGamer{
 margin-right: 1%;
@@ -69,65 +78,84 @@ margin-right: 1%;
     font-size: 200%;
 
    
-}
+} 
 /*clase que coloca las elecciones a la izquierda en dos columnas y el resultado a la derecha*/
 
 .underbox{
-    display: flex;
+  
     
    justify-content: space-around;
    
     align-items: center;  
     
 }
-
+ 
 /*clase que establece las dimensiones y características del los botones con las imagenes Piedra Papel Tijeras*/
-img.ppt{
-    display: none;
-    width: 150px;
-    height: 10%;
+.rock, .paper, .scissors  {
+  display: flex;
+  /*pointer-events: none;*/
+    width: 200px;
+    height: 200px;
     background-color: black;
-    padding: 10px;
+ 
     border: double;
-    border-color: aliceblue;
+    
     margin: 20px;
+    
 
+}
+
+.rock{
+    background-image: url(./Adoquin1.gif);
+    background-position: center;
+    
+}
+.paper{
+    background-image: url(./Papiro+auténtico.jpg);
+    background-position: center;
+   
+}
+.scissors{
+    background-image: url(./tijeras-peluqueria-corte-cuchillalia-360x360.jpg);
+    background-position: center;
+   
 }
 
 /*"animación", agrnada la imagen un 50% al colocar el cursor sobre cada botón de P P T*/
-.ppt:hover {
+ #rock:hover, #paper:hover, #scissors:hover {
     cursor: pointer;
     transform: scale(1.5);
-}
+} 
 /*clase para centrar la pizarra y el botón limpiar*/
 .board {
     display: flex;
     justify-content: space-around;  
-}
+} 
 
 /*se incisibiliza el botón de opciones con su id*/
-#inicio{
+/* #inicio{
     visibility: hidden;;
 }
-
+ */
 /*estilo para el nombre del usuario y la opción de la PC en el tablero */
-#gamerName, #compuPPT{
+ #gamerName, #compuPPT{
     font-family: 'Rock Salt', cursive;
     text-align: center;
     font-size: 120%;
 
-}
+} 
 /*se oculta el botón limpiar*/
-#JugarNuevamente{
+/* #JugarNuevamente{
     display: none;
-}
+} */
 /*estilo para el resultado de la pizarra*/
 #mostrarResultado{
     font-family: 'Rock Salt', cursive;
     font-size: 150%;
-}
+    
+} 
 /*estilo al botón para jugar nueva partida*/
-.boquete{    
+/* .boquete{    
     background-image: url(agujero-pared-que-ha-desgarrado_860905-1739.jpg);
     height: 154px;
     width: 154px;
@@ -135,10 +163,10 @@ img.ppt{
     color: aliceblue;
     border-radius: 200px;
     border-style: none; 
-}
+} */
 
 /*se dimensiona el botón limpiar */
-.aplique{
+/* .aplique{
     text-align:right;
     background-image: url(embutido-pared-led-hera-marco-acero-inoxidable.jpg);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -151,20 +179,20 @@ img.ppt{
     border-radius: 20%;
    
     
-}
+} */
 /*mantener la posición del nombre del gamer y las opciones*/
-.nameOptions{
+ .nameOptions{
     display: flex;
     justify-content: center;
-}
+} 
 /*estilos del pizarrón con el Marcador*/
 .pizarra {
-    background-image: url(pizarron.jpg);
+    background-image: url(./pizarron.jpg);
     font-family: 'Rock Salt', cursive;
     color: whitesmoke ;
     width: 25%;
-}
+} 
 /*subrayado de la palabra Marcador*/
-#marcador{
+ #marcador{
     text-decoration: underline;
-}
+} 
