@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/practico3/static/css/main.073c9b0a.css",
-    "main.js": "/practico3/static/js/main.cb3e5ec4.js",
+    "main.css": "/practico3/static/css/main.ee6e73fb.css",
+    "main.js": "/practico3/static/js/main.1b163196.js",
     "static/js/787.f9640105.chunk.js": "/practico3/static/js/787.f9640105.chunk.js",
-    "static/media/logo.svg": "/practico3/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/blank-concrete-white-wall-texture-background.jpg": "/practico3/static/media/blank-concrete-white-wall-texture-background.9e1f487ecb5cdd176f02.jpg",
+    "static/media/moldura.jpg": "/practico3/static/media/moldura.fd943cc4cd38e36d99cc.jpg",
+    "static/media/pizarron.jpg": "/practico3/static/media/pizarron.cfbc3ba2546e2a267d47.jpg",
+    "static/media/Adoquin1.gif": "/practico3/static/media/Adoquin1.d3e9f37956561a072408.gif",
+    "static/media/tijeras-peluqueria-corte-cuchillalia-360x360.jpg": "/practico3/static/media/tijeras-peluqueria-corte-cuchillalia-360x360.7366b062b9c3be6525f0.jpg",
     "index.html": "/practico3/index.html",
-    "main.073c9b0a.css.map": "/practico3/static/css/main.073c9b0a.css.map",
-    "main.cb3e5ec4.js.map": "/practico3/static/js/main.cb3e5ec4.js.map",
+    "main.ee6e73fb.css.map": "/practico3/static/css/main.ee6e73fb.css.map",
+    "main.1b163196.js.map": "/practico3/static/js/main.1b163196.js.map",
     "787.f9640105.chunk.js.map": "/practico3/static/js/787.f9640105.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.cb3e5ec4.js"
+    "static/css/main.ee6e73fb.css",
+    "static/js/main.1b163196.js"
   ]
 }
