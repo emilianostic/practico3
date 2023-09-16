@@ -1,4 +1,4 @@
-/* 
+
 /*se establece la altura del body en un 100% (o vh) y se coloca la imagend e fondo*/
 body{
     height: 100vh;
@@ -54,7 +54,7 @@ margin-top: 1%;
     display: flex;
     justify-content: center;
 }
- */
+ 
 /*esta clase no permite que el tablero con el resultado se vea antes de que se comience a jugar*/
 .tablero{
     display: none;
