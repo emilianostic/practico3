@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Juego Piedra Papel Tijeras (PPT) en una "pared" con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clásico juego PPT adaptado a HTML, CSS y funcionalidades con Javascript reestructurado en componentes de React
 
-## Available Scripts
+## Comenzando 
 
-In the project directory, you can run:
+Los archivos de este proyecto se pueden descargar de  https://github.com/emilianostic/practico3
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Se crean tres componentes App, Título y Juego. En los comentarios en el código se puede ver las expliaciones siguiendo las consignas del práctico 3.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Reglas y como Jugar 🔧
 
-### `npm test`
+Una vez que ingresamos al sitio de  tendremos que colocar un nombre al jugador y luego hacer click para ver las opciones para poder jugar versus una eleción aleatoria que nos da la computadora. Las reglas son las siguientes:
+La tijera gana al papel porque le puede cortar.
+La piedra gana a las tijeras porque las rompe.
+El papel gana a la piedra porque la envuelve.
+A "Piedra, papel o tijeras" se juega de dos en dos.
+Si los dos jugadores sacan la misma figura hay empate, tablas, no gana nadie. 
+Aquí se hará un click sobre "opciones" cada vez que queramos elegir PPT, al mismo tiempo que el usuario hace click sobre la imagen elegida, se genera automaticamente una elección aletoria que se compara con la del usuario. Se va mostrando el resultado de cada partida y se suman las partidas ganadas por cada uno hasta el mejor de 5, es decir, cuando uno gana tres veces se observa una alerta. Luego se puede reiniciar el juego con un botón "Nueva Partida" con otro nombre si lo desea. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Ejecutando pruebas ⚙️
+El nombre del jugador no debe tener más de 20 carateres y pueden ser de cualquier tipo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ Escribir un nombre en el input. Dar click para ver las opcionee, clickear en la imagen del adoquin, la elección aleatoria sale papel por lo que se puede leer que Gana la Computadora. Se sigue así suscesivamente hasta que haya un ganador de 3 partidas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Mejoras: eliminar la comparación de la primera opción que siempre compara dos cadenas vacías ("" === "", ver en consola...), diferencia mayúsculas y minúsculas al ingesar el nombre (o buscar otra "font").
+Movimientos de los elemetos html, lograr posicionarlos mejor (pizzarrón, etc).  Darle estilo al input.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Construido con 🛠️
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [Google Fonts](https://fonts.googleapis.com ) - Tipografías 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Autores ✒️
 
-## Learn More
+* **Emiliano Velázquez** 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+⌨️ con ❤️ por [@emilianostic](https://github.com/emilianostic/sobre-mi/) 😊
